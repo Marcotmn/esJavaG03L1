@@ -25,7 +25,7 @@ public class If {
 		///////////ES ANNOBISESTILE
 		
 		
-		int anno = 2000;
+		int anno = 2024;
 		
 		annoBisestile(anno);
 		
@@ -50,7 +50,7 @@ public class If {
 		
 		public static void annoBisestile(int anno) {
 			
-		if ( anno % 100 == 0 && anno % 400 == 0) {
+		if (anno % 4 == 0 || anno % 100 == 0 && anno % 400 == 0) {
 			System.out.println("L'anno è bisestile");
 		
 		} else {
