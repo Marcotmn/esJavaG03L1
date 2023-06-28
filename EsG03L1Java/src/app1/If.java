@@ -5,6 +5,8 @@ public class If {
 	public static void main(String[] args) {
 		
 		
+		///////////ES STRINGAPARIDISPARI
+		
 		///// stringa
 		
 		String esercizioIf = "il mio nome è marco";
@@ -19,10 +21,18 @@ public class If {
 		
 		stringaPariDispari(numeroCaratteri);
 		
+		
+		///////////ES ANNOBISESTILE
+		
+		
+		int anno = 2000;
+		
+		annoBisestile(anno);
+		
 
 	}
 	
-	////// funzione if
+	////// funzione stringparidispari
 	
 	public static void stringaPariDispari( int numeroCaratteri) {
 		if (numeroCaratteri % 2 == 0) {
@@ -31,6 +41,23 @@ public class If {
 	 else {
 		System.out.println("il numero di caratteri è dispari");
 	}
+		
 	}
 		
+		
+	////// funzione annoBisestile
+		
+		
+		public static void annoBisestile(int anno) {
+			
+		if ( anno % 100 == 0 && anno % 400 == 0) {
+			System.out.println("L'anno è bisestile");
+		
+		} else {
+			System.out.println("l'anno non è bisestile");
+		}
+			
+		}
+		
+
 }
